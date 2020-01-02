@@ -1,0 +1,21 @@
+track RNA_bridges
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+bigDataUrl panhandles_preprocessed_filtered_dGcutoff-15.bb
+shortLabel RNA_bridges
+longLabel RNA_bridges
+
+track eCLIP
+type bigBed 6 +
+bigDataUrl eCLIP.bb
+shortLabel eCLIP
+longLabel eCLIP self peaks
+
+
+track shRNA_KD_of_RBPs
+type bigBed 9 +
+itemRgb on
+bigDataUrl KD_all_RBP.bb
+shortLabel shRNA-KD of RBPs
+longLabel shRNA-KD of RNA-binding proteins

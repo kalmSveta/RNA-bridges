@@ -1,0 +1,6 @@
+ 
+hub RNA_bridges
+shortLabel RNA_bridges
+longLabel RNA bridges, shRNAKDs and eClip peaks
+genomesFile genomes.txt 
+email svetlana.kalmykova@skoltech.ru

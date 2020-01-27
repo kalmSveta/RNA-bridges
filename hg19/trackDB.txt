@@ -19,3 +19,26 @@ itemRgb on
 bigDataUrl HepG2_shRNAKD_track.bb
 shortLabel shRNA-KD of RBPs
 longLabel shRNA-KD of RNA-binding proteins
+
+
+track RNA_bridges_looping_out
+type bigBed 12 +
+exonNumbers on
+itemRgb on
+bigDataUrl HepG2_phs_Ltrack.bb
+shortLabel RNA_bridges_looping_out
+longLabel RNA_bridges_looping_out
+
+track eCLIP_looping_out
+type bigBed 6 +
+bigDataUrl HepG2_eClip_Ltrack.bb
+shortLabel eCLIP_looping_out
+longLabel eCLIP self peaks_looping_out
+
+
+track shRNA_KD_of_RBPs_looping_out
+type bigBed 9 +
+itemRgb on
+bigDataUrl HepG2_shRNAKD_Ltrack.bb
+shortLabel shRNA-KD of RBPs_looping_out
+longLabel shRNA-KD of RNA-binding proteins_looping_out

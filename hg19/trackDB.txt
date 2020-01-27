@@ -2,13 +2,13 @@ track RNA_bridges
 type bigBed 12 +
 exonNumbers on
 itemRgb on
-bigDataUrl HepG2_RNA_bridges_track.bb
+bigDataUrl HepG2_phs_track.bb
 shortLabel RNA_bridges
 longLabel RNA_bridges
 
 track eCLIP
 type bigBed 6 +
-bigDataUrl HepG2_eClips_peaks_track.bb
+bigDataUrl HepG2_eClip_track.bb
 shortLabel eCLIP
 longLabel eCLIP self peaks
 
@@ -16,6 +16,6 @@ longLabel eCLIP self peaks
 track shRNA_KD_of_RBPs
 type bigBed 9 +
 itemRgb on
-bigDataUrl HepG2_KD_track.bb
+bigDataUrl HepG2_shRNAKD_track.bb
 shortLabel shRNA-KD of RBPs
 longLabel shRNA-KD of RNA-binding proteins

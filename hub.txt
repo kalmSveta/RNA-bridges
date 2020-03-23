@@ -1,6 +1,6 @@
  
-hub RNA_bridges
-shortLabel RNA_bridges
-longLabel RNA bridges, shRNAKDs and eClip peaks
+hub PCCR_and_RBP
+shortLabel PCCR_and_RBP
+longLabel PCCR, shRNAKD and eCLIP peaks
 genomesFile genomes.txt 
 email svetlana.kalmykova@skoltech.ru

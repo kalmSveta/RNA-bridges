@@ -1,44 +1,48 @@
-track RNA_bridges
+track RNA_bridges_PCCR
 type bigBed 12 +
 exonNumbers on
 itemRgb on
-bigDataUrl HepG2_phs_track.bb
-shortLabel RNA_bridges
-longLabel RNA_bridges
+visibility 3
+bigDataUrl HepG2_phs_track_bridge.bb
+shortLabel RNA_bridges_PCCR
+longLabel RNA bridges PCCR
 
-track eCLIP
+track RNA_bridges_eCLIP
 type bigBed 6 +
-bigDataUrl HepG2_eClip_track.bb
-shortLabel eCLIP
-longLabel eCLIP self peaks
+visibility 3
+bigDataUrl HepG2_eClip_track_bridge.bb
+shortLabel RNA_bridges_eCLIP
+longLabel RNA bridges eCLIP self peaks 
 
-
-track shRNA_KD_of_RBPs
+track RNA_bridges_shRNA_KD
 type bigBed 9 +
 itemRgb on
-bigDataUrl HepG2_shRNAKD_track.bb
-shortLabel shRNA-KD of RBPs
-longLabel shRNA-KD of RNA-binding proteins
+visibility 3
+bigDataUrl HepG2_shRNAKD_track_bridge.bb
+shortLabel RNA_bridges_shRNA_KD
+longLabel RNA bridges shRNA-KD
 
 
-track RNA_bridges_looping_out
+track loop_out_PCCR
 type bigBed 12 +
 exonNumbers on
 itemRgb on
-bigDataUrl HepG2_phs_Ltrack.bb
-shortLabel RNA_bridges_looping_out
-longLabel RNA_bridges_looping_out
+visibility 0
+bigDataUrl HepG2_phs_loop_out_track.bb
+shortLabel loop_out_PCCR
+longLabel loop out PCCR
 
-track eCLIP_looping_out
+track loop_out_eCLIP
 type bigBed 6 +
-bigDataUrl HepG2_eClip_Ltrack.bb
-shortLabel eCLIP_looping_out
-longLabel eCLIP self peaks_looping_out
+visibility 0
+bigDataUrl HepG2_eClip_loop_out_track.bb 
+shortLabel loop_out_eCLIP
+longLabel loop out  eCLIP self peaks
 
-
-track shRNA_KD_of_RBPs_looping_out
+track loop_out_shRNA_KD        
 type bigBed 9 +
 itemRgb on
-bigDataUrl HepG2_shRNAKD_Ltrack.bb
-shortLabel shRNA-KD of RBPs_looping_out
-longLabel shRNA-KD of RNA-binding proteins_looping_out
+visibility 0
+bigDataUrl HepG2_shRNAKD_loop_out_track.bb
+shortLabel loop_out_shRNA_KD
+longLabel loop out shRNA-KD 

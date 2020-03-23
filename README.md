@@ -1,6 +1,6 @@
 # PCCR and RNA Binding Proteins (RBP)
 
-eCLIP peaks of RBP and shRNA-KD of the same RBP in HepG2 cell line.\
+eCLIP peaks of RBP and shRNA-KD of the same RBP in HepG2 cell line
 
 Two types of tracks are avaliable:
 
@@ -11,5 +11,5 @@ We serached for candidate binding sites of all RBPs profiled in the panel of eCL
 ## loop out
 Long-range RNA structure that loop out an exon and contain an RBP binding site within 50 nts from one of the CCRs, under the requirement that exon inclusion rate significantly respond to RBP knockdown.
 
-shRNA-KD tracks elements have red color, if exon dPSI = PSI KD - PSI CTR > 0 and blue color, if dPSI < 0 \
+shRNA-KD tracks elements have red color, if exon dPSI = PSI KD - PSI CTR > 0 and blue color, if dPSI < 0 
 

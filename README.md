@@ -1,5 +1,7 @@
 # PCCR and RNA Binding Proteins (RBP)
 
+Track hub for hg19 and hg38
+
 eCLIP peaks of RBP and shRNA-KD of the same RBP in HepG2 cell line
 
 Two types of tracks are avaliable:

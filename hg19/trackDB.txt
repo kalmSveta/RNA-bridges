@@ -3,14 +3,14 @@ type bigBed 12 +
 exonNumbers on
 itemRgb on
 visibility 3
-bigDataUrl HepG2_phs_track_bridge.bb
+bigDataUrl HepG2_phs_track.bb
 shortLabel RNA_bridges_PCCR
 longLabel RNA bridges PCCR
 
 track RNA_bridges_eCLIP
 type bigBed 6 +
 visibility 3
-bigDataUrl HepG2_eClip_track_bridge.bb
+bigDataUrl HepG2_eClip_track.bb
 shortLabel RNA_bridges_eCLIP
 longLabel RNA bridges eCLIP self peaks 
 
@@ -18,7 +18,7 @@ track RNA_bridges_shRNA_KD
 type bigBed 9 +
 itemRgb on
 visibility 3
-bigDataUrl HepG2_shRNAKD_track_bridge.bb
+bigDataUrl HepG2_shRNAKD_track.bb
 shortLabel RNA_bridges_shRNA_KD
 longLabel RNA bridges shRNA-KD
 
